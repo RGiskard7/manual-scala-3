@@ -1,12 +1,12 @@
-# Manual Definitivo de Scala 3
+<p align="center">
+  <img src="./assets/images/banner.png" alt="Manual Definitivo de Scala 3" width="100%">
+</p>
 
-**De Cero a Ingenieria Reactiva**
-
-[![Scala](https://img.shields.io/badge/Scala-3.x-DC322F?logo=scala&logoColor=white)](https://www.scala-lang.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
-
----
+<p align="center">
+  <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/Scala-3.x-DC322F?logo=scala&logoColor=white" alt="Scala"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/Status-Completed-success.svg" alt="Status">
+</p>
 
 ## Descripcion
 
@@ -103,6 +103,27 @@ Big Data con Apache Spark, persistencia funcional, algoritmos y testing.
 | [Capitulo 21](./04%20-%20Modulo%204%20-%20Ingeniería%20de%20Datos%20y%20Calidad/Capítulo%2021%20-%20Diseño%20de%20Estructuras%20y%20Algoritmos%20Avanzados.md) | Estructuras y Algoritmos | Inmutabilidad, recursion, complejidad O(n) |
 | [Capitulo 22](./04%20-%20Modulo%204%20-%20Ingeniería%20de%20Datos%20y%20Calidad/Capítulo%2022%20-%20Testing%20de%20Calidad%20y%20Property-Based%20Testing.md) | Property-Based Testing | ScalaCheck, generadores, invariantes |
 | [Capitulo 23](./04%20-%20Modulo%204%20-%20Ingeniería%20de%20Datos%20y%20Calidad/Capítulo%2023%20-%20Tooling%20de%20Ingeniería%20y%20Arquitectura%20(sbt%20y%20Modularidad).md) | Tooling y Arquitectura | sbt multi-project, Scalafix, modularidad |
+
+---
+
+## Versiones en PDF
+
+Todos los capitulos estan disponibles en formato PDF para lectura offline.
+
+| Recurso | Enlace |
+|---------|--------|
+| Manual Completo | [Descargar PDF](./assets/pdf/ZZ%20-%20Manual%20Definitivo%20de%20Scala%203%20-%20De%20Cero%20a%20Ingeniería%20Reactiva.pdf) |
+| Indice PDF | [Descargar PDF](./assets/pdf/00%20-%20Indice.pdf) |
+
+### Capitulos Individuales (PDF)
+
+| Modulo | Capitulos |
+|--------|-----------|
+| Modulo 1 | [Cap 1](./assets/pdf/Capítulo%201%20-%20Configuración%20y%20Tooling%20Esencial.pdf) - [Cap 2](./assets/pdf/Capítulo%202%20-%20El%20Paradigma%20Híbrido%20-%20POO%20Pura%20y%20Programación%20Funcional%20(PF).pdf) - [Cap 3](./assets/pdf/Capítulo%203%20-%20Modelado%20de%20Datos%20-%20Clases,%20Objetos%20y%20Traits.pdf) - [Cap 4](./assets/pdf/Capítulo%204%20-%20Funciones%20y%20Control%20de%20Flujo%20como%20Expresiones.pdf) - [Cap 5](./assets/pdf/Capítulo%205%20-%20Estructuras%20de%20Datos%20y%20Colecciones%20Funcionales.pdf) - [Cap 6](./assets/pdf/Capítulo%206%20-%20Pattern%20Matching%20y%20Tipos%20de%20Datos%20Algebraicos%20(ADTs)%20Básicos.pdf) |
+| Modulo 2 | [Cap 7](./assets/pdf/Capítulo%207%20-%20Manejo%20de%20Ausencia%20y%20Errores%20Puros.pdf) - [Cap 8](./assets/pdf/Capítulo%208%20-%20Abstracciones%20Contextuales%20(Scala%203%20-%20%60given%60%20y%20%60using%60).pdf) - [Cap 9](./assets/pdf/Capítulo%209%20-%20Type%20Classes%20y%20Métodos%20de%20Extensión.pdf) - [Cap 10](./assets/pdf/Capítulo%2010%20-%20Tipos%20Avanzados%20de%20Scala%203%20-%20Estructura%20y%20Flexibilidad.pdf) - [Cap 11](./assets/pdf/Capítulo%2011%20-%20Metaprogramación%20y%20Optimización%20de%20Compilación.pdf) |
+| Modulo 3 | [Cap 12](./assets/pdf/Capítulo%2012%20-%20Concurrencia%20-%20Futures%20y%20la%20Mónada%20IO.pdf) - [Cap 13](./assets/pdf/Capítulo%2013%20-%20Arquitectura%20de%20Efectos%20-%20Cats%20Effect%20vs%20ZIO.pdf) - [Cap 14](./assets/pdf/Capítulo%2014%20-%20Desarrollo%20Web%20Funcional.pdf) - [Cap 15](./assets/pdf/Capítulo%2015%20-%20Modelo%20de%20Actores%20-%20Pekko%20Fundamentos%20y%20Patrones.pdf) - [Cap 16](./assets/pdf/Capítulo%2016%20-%20Pekko%20-%20Tolerancia%20a%20Fallos%20y%20Estado%20Duradero.pdf) - [Cap 17](./assets/pdf/Capítulo%2017%20-%20Sistemas%20Distribuidos%20y%20Persistencia%20Reactiva.pdf) |
+| Modulo 4 | [Cap 18](./assets/pdf/Capítulo%2018%20-%20Apache%20Spark%20-%20El%20Dominio%20de%20Big%20Data.pdf) - [Cap 19](./assets/pdf/Capítulo%2019%20-%20Programación%20de%20Datos%20Estructurados%20con%20Spark.pdf) - [Cap 20](./assets/pdf/Capítulo%2020%20-%20Abstracciones%20de%20Datos%20-%20JDBC%20Funcional%20(Doobie).pdf) - [Cap 21](./assets/pdf/Capítulo%2021%20-%20Diseño%20de%20Estructuras%20y%20Algoritmos%20Avanzados.pdf) - [Cap 22](./assets/pdf/Capítulo%2022%20-%20Testing%20de%20Calidad%20y%20Property-Based%20Testing.pdf) - [Cap 23](./assets/pdf/Capítulo%2023%20-%20Tooling%20de%20Ingeniería%20y%20Arquitectura%20(sbt%20y%20Modularidad).pdf) |
+| Adicionales | [Seguridad y Escala](./assets/pdf/ZZ%20-%20Scala_3_Seguridad_y_Escala.pdf) - [Imperativo Arquitectonico](./assets/pdf/ZZ%20-%20Scala_y_el_Imperativo_Arquitectónico.pdf) |
 
 ---
 
@@ -211,3 +232,9 @@ Este proyecto se distribuye bajo la licencia MIT. Consultar el archivo [LICENSE]
 - [ZIO Documentation](https://zio.dev/)
 - [Apache Pekko](https://pekko.apache.org/)
 - [Apache Spark](https://spark.apache.org/)
+
+---
+
+<p align="center">
+  <small>Desarrollado por <b>Edu Díaz</b> (<b>RGiskard7</b>) ❤️</small>
+</p>
