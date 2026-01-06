@@ -1,6 +1,6 @@
 ## Capítulo 1: Configuración y Tooling Esencial
 
-Como arquitecto de software senior y redactor técnico, este capítulo te proporcionará la base operativa indispensable para comenzar tu viaje en Scala, cubriendo el entorno de ejecución, las herramientas de construcción modernas y las mejores prácticas para configurar tu espacio de trabajo.
+Este capítulo te proporcionará la base operativa indispensable para comenzar tu viaje en Scala, cubriendo el entorno de ejecución, las herramientas de construcción modernas y las mejores prácticas para configurar tu espacio de trabajo.
 
 ### 1. Explicación Teórica: El Ecosistema JVM
 
@@ -76,7 +76,7 @@ mi-proyecto-scala/
 Este es el archivo mínimo viable para un proyecto moderno.
 
 ```scala
-val scala3Version = "3.3.1" // Usa siempre una versión LTS
+val scala3Version = "3.5.1" // Versión estable actual (o "3.3.1" para LTS)
 
 lazy val root = project
   .in(file("."))
@@ -88,7 +88,7 @@ lazy val root = project
 
     // Dependencias externas (Formato: "GrupoID" %% "Artefacto" % "Versión")
     libraryDependencies ++= Seq(
-      "org.scalameta" %% "munit" % "0.7.29" % Test, // Framework de testing ligero
+      "org.scalameta" %% "munit" % "1.1.0" % Test, // Framework de testing ligero
       "com.lihaoyi"   %% "os-lib" % "0.9.1"         // Librería útil para sistema de archivos
     )
   )
@@ -125,7 +125,7 @@ Una sesión de REPL es el lugar ideal para entender el funcionamiento de `val` y
 
 ```scala
 $ scala
-Welcome to Scala 3.7.4 (...)
+Welcome to Scala 3.5.1 (...)
 Type in expressions for evaluation. Or try :help.
 
 // 1. Declaración de un valor inmutable (val)
@@ -153,7 +153,7 @@ Para proyectos pequeños o scripts que requieren librerías externas (dependenci
 **`MiScript.scala`**
 
 ```scala
-//> using scala "3.3.1"
+//> using scala "3.5.1"
 // Declara la dependencia para manejar archivos (lihaoyi/os-lib)
 //> using dep "com.lihaoyi::os-lib:0.9.1"
 

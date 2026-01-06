@@ -39,7 +39,7 @@ lazy val root = project
   .in(file(".")) // Proyecto raíz en el directorio actual
   .settings(
     // Versión de Scala (ej. para Scala 3)
-    scalaVersion := "3.3.3",
+    scalaVersion := "3.5.1",
 
     // Dependencias de librerías
     libraryDependencies ++= Seq(

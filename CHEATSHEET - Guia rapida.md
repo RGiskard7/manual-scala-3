@@ -1,10 +1,10 @@
-# 🚀 Scala 3 Engineering Field Guide
+# Scala 3 - Guia Rapida de Ingenieria
 
-**Versión:** 2025 (Scala 3.3+ LTS) | **Enfoque:** Ingeniería, Data & Sistemas Reactivos.
+**Versión:** 2025 (Scala 3.5.1 / 3.3.1 LTS) | **Enfoque:** Ingeniería, Data & Sistemas Reactivos.
 
 ---
 
-## 1. 🏗️ Fundamentos y Sintaxis Operativa
+## 1. Fundamentos y Sintaxis Operativa
 
 Scala es un lenguaje **orientado a expresiones**. Todo bloque de código computa y devuelve un valor.
 
@@ -43,7 +43,7 @@ if (x > 0) {                    if x > 0 then
 
 ---
 
-## 2. 🧬 Modelado de Dominio (ADTs)
+## 2. Modelado de Dominio (ADTs)
 
 Scala brilla modelando datos complejos mediante **Tipos de Datos Algebraicos (ADTs)**.
 
@@ -76,7 +76,7 @@ def handle(status: PaymentStatus): String = status match
 
 ---
 
-## 3. 🛡️ Sistema de Tipos Avanzado
+## 3. Sistema de Tipos Avanzado
 
 Herramientas para hacer estados ilegales irrepresentables.
 
@@ -97,7 +97,7 @@ Herramientas para hacer estados ilegales irrepresentables.
 
 ---
 
-## 4. 🔮 Abstracciones Contextuales (La "Magia" Controlada)
+## 4. Abstracciones Contextuales
 
 Reemplazo explícito y modular de los `implicits`.
 
@@ -130,7 +130,7 @@ extension [A](a: A)(using s: Show[A])
 
 ---
 
-## 5. 🌊 Colecciones Funcionales
+## 5. Colecciones Funcionales
 
 Nunca uses bucles `for` o `while` para transformar datos. Usa combinadores.
 
@@ -159,7 +159,7 @@ users.withFilter(_.active).flatMap(u => u.orders.map(o => o.id))
 
 ---
 
-## 6. ⚡ Arquitectura Reactiva (Concurrencia)
+## 6. Arquitectura Reactiva (Concurrencia)
 
 ### Future vs. IO (El Gran Debate)
 
@@ -183,7 +183,7 @@ Sistema distribuido basado en paso de mensajes.
 
 ---
 
-## 7. 💾 Ingeniería de Datos (Spark & Doobie)
+## 7. Ingenieria de Datos (Spark y Doobie)
 
 ### Apache Spark (Scala API)
 
@@ -220,7 +220,7 @@ program.transact(xa).unsafeRunSync()
 
 ---
 
-## 🛑 Anti-Patrones vs. Buenas Prácticas
+## 8. Anti-Patrones vs. Buenas Practicas
 
 |**❌ NO HAGAS ESTO (Java Style)**|**✅ HAZ ESTO (Scala Way)**|**Por qué**|
 |---|---|---|

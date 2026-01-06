@@ -81,3 +81,9 @@ bin/
 .env.local
 *.secret
 credentials.conf
+
+# =======================
+# PDFs (se generaran mas adelante)
+# =======================
+*.pdf
+assets/pdf/
