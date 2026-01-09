@@ -1,4 +1,4 @@
-## Capítulo 31: Kafka Streaming Funcional (fs2-kafka)
+## Capítulo 34: Kafka Streaming Funcional (fs2-kafka)
 
 ### 1. Explicación Teórica
 

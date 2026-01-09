@@ -1,4 +1,4 @@
-## Capítulo 32: GraphQL con Caliban
+## Capítulo 35: GraphQL con Caliban
 
 ### 1. Explicación Teórica
 

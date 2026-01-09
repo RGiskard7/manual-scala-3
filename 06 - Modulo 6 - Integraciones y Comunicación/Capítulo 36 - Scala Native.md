@@ -1,4 +1,4 @@
-## Capítulo 33: Scala Native
+## Capítulo 36: Scala Native
 
 ### 1. Explicación Teórica
 
@@ -26,7 +26,7 @@ La arquitectura de Scala Native se apoya en el ecosistema de **Scala CLI** para 
 Este ejemplo crea una utilidad nativa que lista archivos filtrando por tamaño instantáneamente, aprovechando `os-lib`.
 
 ```scala
-//> using scala "3.3.4"
+//> using scala "3.3.3"
 //> using toolkit latest
 //> using platform native
 
