@@ -108,15 +108,18 @@ Testing tradicional, serializacion JSON, desarrollo frontend con Scala.js, strea
 
 ## Modulo 6: Integraciones y Comunicacion
 
-gRPC, Kafka, GraphQL y compilacion nativa para arquitecturas de microservicios.
+gRPC (fundamentos, implementacion, streaming y seguridad), Kafka, GraphQL y compilacion nativa.
 
 | # | Capitulo | Descripcion |
 |---|----------|-------------|
 | - | [Resumen Visual](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/00%20-%20Gráfico%20resumen%20Parte%206.md) | Diagrama Mermaid del modulo |
-| 30 | [gRPC y Protobuf con ScalaPB](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2030%20-%20gRPC%20y%20Protobuf%20con%20ScalaPB.md) | Protocol Buffers, fs2-grpc, streaming bidireccional, interceptors |
-| 31 | [Kafka Streaming Funcional](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2031%20-%20Kafka%20Streaming%20Funcional%20(fs2-kafka).md) | fs2-kafka, backpressure, commits en lote, Avro/Vulcan |
-| 32 | [GraphQL con Caliban](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2032%20-%20GraphQL%20con%20Caliban.md) | Esquemas type-safe, queries, mutations, subscriptions |
-| 33 | [Scala Native](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2033%20-%20Scala%20Native.md) | Compilacion AOT, C-Interop, Scala CLI, binarios nativos |
+| 30 | [Fundamentos de Ingenieria gRPC y Tooling](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2030%20-%20Fundamentos%20de%20Ingeniería%20gRPC%20y%20Tooling.md) | Protocol Buffers, ScalaPB, configuracion sbt, generacion de codigo |
+| 31 | [Implementacion de Servicios gRPC con Futures](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2031%20-%20Implementación%20de%20Servicios%20gRPC%20con%20Futures.md) | Servidor y cliente gRPC, Netty, escalabilidad |
+| 32 | [gRPC Reactivo y Streaming con FS2](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2032%20-%20gRPC%20Reactivo%20y%20Streaming%20con%20FS2.md) | fs2-grpc, streaming bidireccional, backpressure |
+| 33 | [Seguridad, Middleware y Metadatos en gRPC](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2033%20-%20Seguridad,%20Middleware%20y%20Metadatos%20en%20gRPC.md) | TLS, interceptors, metadatos, health checks, observabilidad |
+| 34 | [Kafka Streaming Funcional](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2034-%20Kafka%20Streaming%20Funcional%20(fs2-kafka).md) | fs2-kafka, backpressure, commits en lote, Avro/Vulcan |
+| 35 | [GraphQL con Caliban](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2035%20-%20GraphQL%20con%20Caliban.md) | Esquemas type-safe, queries, mutations, subscriptions |
+| 36 | [Scala Native](./06%20-%20Modulo%206%20-%20Integraciones%20y%20Comunicación/Capítulo%2036%20-%20Scala%20Native.md) | Compilacion AOT, C-Interop, Scala CLI, binarios nativos |
 
 ---
 
