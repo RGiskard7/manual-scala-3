@@ -29,7 +29,7 @@ Este interceptor (basado en el código original del proyecto) inspecciona la Met
 
 Scala
 
-```
+```scala
 import io.grpc.{Metadata, ServerInterceptor, ServerCall, ServerCallHandler, Status}
 
 // Definimos la clave esperada en la metadata (similar a "Authorization" en HTTP)
@@ -65,7 +65,7 @@ Un interceptor no hace nada si no se "cablea" al servicio. Es fundamental utiliz
 
 Scala
 
-```
+```scala
 import io.grpc.ServerInterceptors
 import io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder
 import com.miempresa.v1.usuarios.UsuarioServiceGrpc // Tu trait generado
